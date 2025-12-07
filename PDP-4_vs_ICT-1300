@@ -11,7 +11,7 @@ The DEC Programmed Data Processor -4 is a compact solid-state stored program dig
 
 4. A single X winding and a single Y winding intersect at a single memory location containing an 18-bit core register. During each memory cycle information is read from or written into the single addressed core register. This addressed register is selected from among the 4096 (1024) registers in the core bank by selecting the single X winding and the single Y winding that intersect at the corresponding memory location. 
 
-5. PDP-4 computer's logic is divided into four parts: control unit, arithmetic unit, memory and input-output system. But only control unit and arithmetic unit have registers.The control unit includes three internal registers, IR, PC and MA, and two console switch registers, AS and ACS and those registers are specialised.
+5. PDP-4 computer's logic is divided into four parts: control unit, arithmetic unit, memory and input-output system. But only control unit and arithmetic unit have registers.The control unit includes three internal registers: IR(instruction register), PC(program counter) and MA(memory register), and two console switch registers, AS(address switches) and ACS(accumulator switches) and those registers are specialised.
 
 
 
