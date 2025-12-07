@@ -155,4 +155,43 @@ Total 14 (delta 5), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (5/5), completed with 1 local object.
 To https://github.com/LinasCoding/Computer_architecture_assignment.git
    e95fed9..d0a5ada  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Starting with question nr.4 about PDP-4 computer's architecture." 
+[main 7851a04] Starting with question nr.4 about PDP-4 computer's architecture.
+ 2 files changed, 25 insertions(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Also time to time i am updating terminal.log file."
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 733 bytes | 733.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   d0a5ada..7851a04  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Updating question nr.4 with information about PDP-4 computer."
+[main 35d5b8c] Updating question nr.4 with information about PDP-4 computer.
+ 1 file changed, 17 insertions(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Minor changes were made to question nr.4 about PDP-4 computer."
+[main d89b7de] Minor changes were made to question nr.4 about PDP-4 computer.
+ 1 file changed, 1 insertion(+), 7 deletions(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1012 bytes | 1012.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   7851a04..d89b7de  main -> main
 

@@ -11,6 +11,8 @@ The DEC Programmed Data Processor -4 is a compact solid-state stored program dig
 
 4. A single X winding and a single Y winding intersect at a single memory location containing an 18-bit core register. During each memory cycle information is read from or written into the single addressed core register. This addressed register is selected from among the 4096 (1024) registers in the core bank by selecting the single X winding and the single Y winding that intersect at the corresponding memory location. 
 
+5. 
+
 
 
 
