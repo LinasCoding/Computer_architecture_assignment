@@ -92,4 +92,31 @@ dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Insertion i
 [main 7718892] Insertion into PDP-4 architectures introduction.
  1 file changed, 2 insertions(+), 3 deletions(-)
 dummy@dummy-K55VM:~/Computer_architecture_assignment$ subl terminal.log
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "In case of the need, added terminals log file."
+[main b897025] In case of the need, added terminals log file.
+ 1 file changed, 95 insertions(+)
+ create mode 100644 terminal.log
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 2.08 KiB | 2.08 MiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   470cb87..b897025  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Updating PDP-4 computer architecture's introduction."
+[main d870760] Updating PDP-4 computer architecture's introduction.
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Starting with the 2nd question."
+[main 740d0c9] Starting with the 2nd question.
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Updating 2nd question with information."
+[main e95fed9] Updating 2nd question with information.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
