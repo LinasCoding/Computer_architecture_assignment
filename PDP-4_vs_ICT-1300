@@ -35,7 +35,7 @@ input-output devices to interrupt the program and initiate a subroutine which ma
 
 14. PDP-4 architecture have double-precision floating point package wich provides floating point arithmetic with a 36-bit mantissa and 18-bit exponent. The routines include plus, minus, divide, multiply, fix-to-float, and float-to-fix, with decimal input and output. 
 
-15. 
+15. With data interruption is suited for high speed information transfers; up to 125,000 18-bit words may be transferred per second. The clock/timer produces a signal which increments a Core Memory register at a rate of 60 cycles per second. The Clock produces a pulse every 1/60 second (16.6 milliseconds).
 
 
 
