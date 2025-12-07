@@ -33,7 +33,7 @@ analog-to-digital converters.
 13. PDP-4 has program interrupt control permits one of 11 lines (conditions) or
 input-output devices to interrupt the program and initiate a subroutine which may return to the original program when the cause for interruption has been processed. The machine state is preserved during a Program Interrupt. This type of interrupt is suited for information or event rates in the range of 0 to 2,000 cycles per second. Data interrupt control allows a device to automatically interrupt the program and deposit or extract data from the Core Memory at an address specified by the device. The Data Interrupt is suited for high speed information transfers; up to 125,000 18-bit words may be transferred per second. 
 
-14. 
+14. PDP-4 architecture have double-precision floating point package wich provides floating point arithmetic with a 36-bit mantissa and 18-bit exponent. The routines include plus, minus, divide, multiply, fix-to-float, and float-to-fix, with decimal input and output. 
 
 
 
