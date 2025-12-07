@@ -21,7 +21,7 @@ The DEC Programmed Data Processor -4 is a compact solid-state stored program dig
 
 9. PDP-4 system do not have virtual memory, because CPU is working directly with memory, with real addresses.
 
-10. PDP-4 is 18 bit, accumulator-based, single-address instruction set.This system have 16 instructions. There are two classes of PDP-4 instructions: memory reference instructions like: AND, JUMP, ADD, TAD(2's compliment), LAC, DAC, DZM, etc. and augmented instructions like: 
+10. PDP-4 is 18 bit, accumulator-based, single-address instruction set.This system have 16 instructions. There are two classes of PDP-4 instructions: memory reference instructions like: AND, JUMP, TAD(2's compliment), LAC, DAC, DZM, etc. and augmented instructions like: IOT DIV, MUL. 
 
 
 
