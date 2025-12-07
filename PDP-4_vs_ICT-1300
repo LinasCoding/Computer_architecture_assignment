@@ -30,7 +30,7 @@ operate in conjunction with a variety of peripheral devices, such as perforated-
 Teletype printer-keyboard, line printers, magnetic tape transports, and
 analog-to-digital converters.
 
-13. 
+13. PDP-4 has program interrupt control.The program interrupt allows a logic line state to interrupt the program. It is used to speed the processing of input-output device information, or to allow certain alarm conditions to be sensed by the computer. The interrupt may be enabled or disabled by the program.
 
 
 
