@@ -21,6 +21,8 @@ The DEC Programmed Data Processor -4 is a compact solid-state stored program dig
 
 9. PDP-4 system do not have virtual memory, because CPU is working directly with memory, with real addresses.
 
+10. 
+
 
 
 
