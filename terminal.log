@@ -428,4 +428,63 @@ Total 12 (delta 4), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (4/4), completed with 1 local object.
 To https://github.com/LinasCoding/Computer_architecture_assignment.git
    98b7ba3..3d91a40  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Updating terminal.log"
+[main db7dd46] Updating terminal.log
+ 1 file changed, 56 insertions(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 603 bytes | 603.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   3d91a40..db7dd46  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Starting on question nr.12 about PDP-4 architecture."
+[main e6c0a39] Starting on question nr.12 about PDP-4 architecture.
+ 1 file changed, 2 insertions(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Done with question nr.12 about PDP-4 architecture."
+[main f3f6ba0] Done with question nr.12 about PDP-4 architecture.
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Starting on question nr.13 about PDP-4 architecture."
+[main 452942a] Starting on question nr.13 about PDP-4 architecture.
+ 1 file changed, 2 insertions(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Done with question nr.13 about PDP-4 architecture."
+[main fbd0acb] Done with question nr.13 about PDP-4 architecture.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Starting on question nr.14 about PDP-4 architecture."
+[main b8aceaf] Starting on question nr.14 about PDP-4 architecture.
+ 1 file changed, 1 insertion(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Changes on question nr.13"
+[main 6f4179a] Changes on question nr.13
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Done with question nr.14 about PDP architecture."
+On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Done with question nr.14 about PDP architecture."
+[main d906852] Done with question nr.14 about PDP architecture.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 3.16 KiB | 808.00 KiB/s, done.
+Total 21 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), completed with 1 local object.
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   db7dd46..d906852  main -> main
 
