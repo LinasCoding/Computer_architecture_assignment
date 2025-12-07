@@ -21,7 +21,8 @@ The DEC Programmed Data Processor -4 is a compact solid-state stored program dig
 
 9. PDP-4 system do not have virtual memory, because CPU is working directly with memory, with real addresses.
 
-10. PDP-4 system have 4 Instractions Set Architectures: Operate, Memory Reference, Immediate and I/O formats.
+10. PDP-4 system have 5 Instractions Set Architectures: memory reference like: AND, ADD, TAD(2's compliment), etc. then operate instructions like: LAC,DAC,DZM
+and I/O instructions like: IOT.
 
 
 
