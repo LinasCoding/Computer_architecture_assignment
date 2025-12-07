@@ -37,6 +37,8 @@ input-output devices to interrupt the program and initiate a subroutine which ma
 
 15. With data interruption is suited for high speed information transfers; up to 125,000 18-bit words may be transferred per second. The clock/timer produces a signal which increments a Core Memory register at a rate of 60 cycles per second. The Clock produces a pulse every 1/60 second (16.6 milliseconds).
 
+16. 
+
 
 
 
