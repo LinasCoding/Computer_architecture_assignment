@@ -119,4 +119,18 @@ dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
 dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Updating 2nd question with information."
 [main e95fed9] Updating 2nd question with information.
  1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.36 KiB | 698.00 KiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   b897025..e95fed9  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Adding references to the main file."
+[main 92cedb7] Adding references to the main file.
+ 2 files changed, 30 insertions(+)
 
