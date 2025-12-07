@@ -529,4 +529,39 @@ dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
 dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Starting on question nr.18 about PDP-4 architecture."
 [main f9aed42] Starting on question nr.18 about PDP-4 architecture.
  1 file changed, 1 insertion(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Found an article about ICT 1300 architecture."
+[main 65f6e71] Found an article about ICT 1300 architecture.
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Adding another article about ICT 1300 architecture."
+[main 41d39ba] Adding another article about ICT 1300 architecture.
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Started working on question nr.2, found some information about computer's dimensions."
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Started working on question nr.2, found some information about computer's dimensions."
+[main c39e619] Started working on question nr.2, found some information about computer's dimensions.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Found some information about ICT 1300 architectures registers."
+[main 65cae1b] Found some information about ICT 1300 architectures registers.
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Found information about address type the one ICT 1300 use."
+[main f8ff3bb] Found information about address type the one ICT 1300 use.
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Found some more detailed information about ICT 1300 registers."
+[main 5717128] Found some more detailed information about ICT 1300 registers.
+ 1 file changed, 1 insertion(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "There was some information regarding ICT 1300 systems flags."
+[main b6274d4] There was some information regarding ICT 1300 systems flags.
+ 1 file changed, 1 insertion(+)
 
