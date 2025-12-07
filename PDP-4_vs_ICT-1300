@@ -17,7 +17,7 @@ The DEC Programmed Data Processor -4 is a compact solid-state stored program dig
 
 7. PDP-4 system have 18bit machine word.
 
-8.
+8. PDP-4 computer system have continuous type of memory layout.Its efective address is 12 bits.Extended version of PDP-4 could work with up to 32K 18bit words, but usually it had 4k 18bit of words in capacity.
 
 
 
