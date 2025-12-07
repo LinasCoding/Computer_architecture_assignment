@@ -269,4 +269,34 @@ Total 13 (delta 5), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (5/5), completed with 2 local objects.
 To https://github.com/LinasCoding/Computer_architecture_assignment.git
    82762b2..1f734e7  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Done with question nr.6 about PDP-4 computer flags."
+[main bbee519] Done with question nr.6 about PDP-4 computer flags.
+ 2 files changed, 44 insertions(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Starting with question nr.7 about PDP-4 computer."
+[main 2dbb87a] Starting with question nr.7 about PDP-4 computer.
+ 1 file changed, 2 insertions(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Done with question nr.7 about PDP-4 computer."
+[main a49a817] Done with question nr.7 about PDP-4 computer.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Starting with question nr.8 about PDP-4 computer."
+[main 17ed7fd] Starting with question nr.8 about PDP-4 computer.
+ 1 file changed, 2 insertions(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Done with question nr.8 about PDP-4 computer."
+[main c47e268] Done with question nr.8 about PDP-4 computer.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (16/16), 2.60 KiB | 1.30 MiB/s, done.
+Total 16 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 2 local objects.
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   1f734e7..c47e268  main -> main
 
