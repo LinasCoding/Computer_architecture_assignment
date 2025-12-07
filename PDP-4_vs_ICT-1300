@@ -16,6 +16,7 @@ The DEC Programmed Data Processor -4 is a compact solid-state stored program dig
    ICT 1300 system as well as PDP-4 is a single-address based machine. A register takes single address at a time.
 
 5. PDP-4 computer's logic is divided into four parts: control unit, arithmetic unit, memory and input-output system. But only control unit and arithmetic unit have registers.The control unit includes three internal registers: IR(instruction register-4bit), PC(program counter-13bit) and MA(memory register-13bit), and two console switch registers, AS(address switches) and ACS(accumulator switches) and those registers are specialised.The arithmetic unit includes two 18-bit registers, AC(accumulator register) and MB(memory buffer register), and a 1-bit L register.
+   ICT 1300 architecture have 3 main registers. A register has a 48-bit Parallel connection to the IAS. It is used to write/read data to/from the IAS, Drum Store and Tape Store. Register B is used in most ALU calculations, and also would be the ALU link to the card punch, paper tape reader/punch and Teletype/line printer if the system had one. It was also used for bit-shifting. Register C is used for mutliplications and also for the card reader.
 
 6. PDP-4 have 2 flags: Link register wich often is used as overflow flag in 1's and 2's compliment and I/O flag.
 
