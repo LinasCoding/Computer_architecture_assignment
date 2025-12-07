@@ -487,4 +487,46 @@ Total 21 (delta 7), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (7/7), completed with 1 local object.
 To https://github.com/LinasCoding/Computer_architecture_assignment.git
    db7dd46..d906852  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 725 bytes | 725.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   d906852..343e430  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Starting on question nr.15 about PDP-4 architecture."
+[main 4e3dad7] Starting on question nr.15 about PDP-4 architecture.
+ 1 file changed, 2 insertions(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Done with question nr.15 about PDP-4 architecture."
+[main 3cb7b83] Done with question nr.15 about PDP-4 architecture.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Starting on question nr.16 about PDP-4 architecture."
+[main 39a40c9] Starting on question nr.16 about PDP-4 architecture.
+ 1 file changed, 2 insertions(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Done with question nr.16 about PDP-4 architecture."
+[main b9a0391] Done with question nr.16 about PDP-4 architecture.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Starting on question nr.17 about PDP-4 architecture."
+[main c9c0987] Starting on question nr.17 about PDP-4 architecture.
+ 1 file changed, 2 insertions(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Updated question nr.15"
+[main 79cc78f] Updated question nr.15
+ 1 file changed, 2 insertions(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Done with question nr.17 about PDP-4 architecture."
+[main 422e956] Done with question nr.17 about PDP-4 architecture.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Starting on question nr.18 about PDP-4 architecture."
+[main f9aed42] Starting on question nr.18 about PDP-4 architecture.
+ 1 file changed, 1 insertion(+)
 
