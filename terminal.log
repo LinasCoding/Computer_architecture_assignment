@@ -1,0 +1,95 @@
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ touch PDP-4_vs_ICT-1300
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ ls
+PDP-4_vs_ICT-1300
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git remote add origin https://github.com/LinasCoding/Computer_architecture_assignment.git
+fatal: not a git repository (or any of the parent directories): .git
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git init
+Initialized empty Git repository in /home/dummy/Computer_architecture_assignment/.git/
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Added main file for assignment."
+[main (root-commit) d5f70c4] Added main file for assignment.
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 PDP-4_vs_ICT-1300
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git remote add origin https://github.com/LinasCoding/Computer_architecture_assignment.git
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git branch -M main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 238 bytes | 238.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ subl PDP-4_vs_ICT-1300
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Assigned a title for the topic."
+[main b1ba49c] Assigned a title for the topic.
+ 1 file changed, 1 insertion(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 334 bytes | 334.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   d5f70c4..b1ba49c  main -> main
+branch 'main' set up to track 'origin/main'.
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git log
+commit b1ba49c72cafb54532d11777a1802c5f374c14ee (HEAD -> main, origin/main)
+Author: Linas <linas.gotautas@mif.stud.vu.lt>
+Date:   Sun Dec 7 00:51:04 2025 +0200
+
+    Assigned a title for the topic.
+
+commit d5f70c420bc414c94132f3213d15486ff31f1916
+Author: Linas <linas.gotautas@mif.stud.vu.lt>
+Date:   Sun Dec 7 00:46:14 2025 +0200
+
+    Added main file for assignment.
+    
+dummy@dummy-K55VM:~$ realpath PDP_4_Manual_1962.pdf
+/home/dummy/PDP_4_Manual_1962.pdf
+dummy@dummy-K55VM:~$ mv /home/dummy/PDP_4_Manual_1962.pdf /home/dummy/Computer_architecture_assignment/PDP-4
+dummy@dummy-K55VM:~$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+dummy@dummy-K55VM:~$ cd Computer_architecture_assignment
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Added PDP-4  computer architecture's resource file." 
+[main 1035104] Added PDP-4  computer architecture's resource file.
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 PDP-4/PDP_4_Manual_1962.pdf
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 2.83 MiB | 272.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   b1ba49c..1035104  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ subl PDP-4_vs_ICT-1300
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Added introduction to PDP-4 computer's architecture." 
+[main 470cb87] Added introduction to PDP-4 computer's architecture.
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 719 bytes | 719.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   1035104..470cb87  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ subl PDP-4_vs_ICT-1300
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Correcting PDP-4 architectures introduction." 
+[main 2ed208d] Correcting PDP-4 architectures introduction.
+ 1 file changed, 2 insertions(+), 5 deletions(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Insertion into PDP-4 architectures introduction." 
+[main 7718892] Insertion into PDP-4 architectures introduction.
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ subl terminal.log
+
