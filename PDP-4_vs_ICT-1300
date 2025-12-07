@@ -30,7 +30,8 @@ operate in conjunction with a variety of peripheral devices, such as perforated-
 Teletype printer-keyboard, line printers, magnetic tape transports, and
 analog-to-digital converters.
 
-13. PDP-4 has program interrupt control.The program interrupt allows a logic line state to interrupt the program. It is used to speed the processing of input-output device information, or to allow certain alarm conditions to be sensed by the computer. The interrupt may be enabled or disabled by the program.
+13. PDP-4 has program interrupt control permits one of 11 lines (conditions) or
+input-output devices to interrupt the program and initiate a subroutine which may return to the original program when the cause for interruption has been processed. The machine state is preserved during a Program Interrupt. This type of interrupt is suited for information or event rates in the range of 0 to 2,000 cycles per second. Data interrupt control allows a device to automatically interrupt the program and deposit or extract data from the Core Memory at an address specified by the device. The Data Interrupt is suited for high speed information transfers; up to 125,000 18-bit words may be transferred per second. 
 
 14. 
 
