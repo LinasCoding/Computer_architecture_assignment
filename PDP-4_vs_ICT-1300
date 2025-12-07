@@ -23,7 +23,7 @@ The DEC Programmed Data Processor -4 is a compact solid-state stored program dig
 
 10. PDP-4 is 18 bit, accumulator-based, single-address instruction set.This system have 16 instructions. There are 3 classes of PDP-4 instructions: memory reference instructions like: AND Y, JUMP Y, XOR Y, LAC Y, DAC Y, DZM Y, etc. operate instructions like: RAL,RTL, etc. and basic IOT instructions like: IOF, ION, etc.
 
-11.
+11.PDP-4 architecture support direct and indirect addressing modes.
 
 
 
