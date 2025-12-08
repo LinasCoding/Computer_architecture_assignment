@@ -564,4 +564,48 @@ dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
 dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "There was some information regarding ICT 1300 systems flags."
 [main b6274d4] There was some information regarding ICT 1300 systems flags.
  1 file changed, 1 insertion(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Found some information about addresing mode of ICT 1300 system."
+[main ce1c9db] Found some information about addresing mode of ICT 1300 system.
+ 1 file changed, 1 insertion(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Wrote some more information about addressing mode."
+[main 092ecd4] Wrote some more information about addressing mode.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Found some information about I/O equipment for ICT 1300 architecture."
+On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Wrote some more information about addressing mode."
+On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+   modified:   PDP-4_vs_ICT-1300
+
+no changes added to commit (use "git add" and/or "git commit -a")
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Found some information about I/O equipment for ICT 1300 architecture."
+[main 7d0a72a] Found some information about I/O equipment for ICT 1300 architecture.
+ 1 file changed, 1 insertion(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Added some informations about interruption of ICT 1300 system."
+[main 56e5baa] Added some informations about interruption of ICT 1300 system.
+ 1 file changed, 1 insertion(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (24/24), 3.34 KiB | 569.00 KiB/s, done.
+Total 24 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (8/8), completed with 1 local object.
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   d78e541..56e5baa  main -> main
 
