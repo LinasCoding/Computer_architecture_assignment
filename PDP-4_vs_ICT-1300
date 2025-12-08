@@ -6,7 +6,7 @@ The DEC Programmed Data Processor -4 is a compact solid-state stored program dig
 
 
 2. Elementary base of PDP-4 computer's processor was descrete transistors and for memory were using magnetic core. It means that transistors were sold and you could replace them separetly. The PDP‑4 was pretty big computer, its weight was around 450 kilograms. Its measured roughly 68cm × 171cm × 162cm.From a single source of 115-volt, 60-cycle, single-phase power, PDP-4 produces circuit operating dc voltages of -15 volts (± 1) and +10 volts (± 1) which are varied for marginal checking. Total power consumption is 900 watts. 
-   ICT 1300 processor's base element was descrete Germanium PNP transistors. System has not got any integrated circuits, as in need you can replace transistors. The computer weighs around 5.5 tonnes, and takes up around 6 by 7 meters of floor space. It used 13kW of power maximum, and 6.2kW at idle.
+   ICT 1300 processor's base element was descrete Germanium PNP transistors. System has not got any integrated circuits, though they have PCB's those can be maintained. The computer weighs around 5.5 tonnes, and takes up around 6 by 7 meters of floor space. It used 13kW of power maximum, and 6.2kW at idle.
 
 3. PDP-4 computer is an accumulator-based.The accumulator, AC, is the major register in the arithmetic unit. It serves both as an accumulator and as an in-out register. The accumulator input logic includes transfer,rotate, logical, and arithmetic gating. The accumulator is used in the execution of all two-term logical and arithmetic instructions. Furthermore, the result of all such instructions always appears in the accumulator. The AC input gating allows the computer to perform the logic functions AND, exclusive OR, and negation, as well as arithmetic operation of addition. All other arithmetic operations must be programmed by using combinations of negation and addition. The inclusive OR function must be programmed by combining negation and conjunction. All transfers of information between the computer and low-speed or programmed peripheral devices are made through AC.
    ICT 1300 architecture were register-based, because it had only 3 registers: A, B and C and they were specific registers and were used for specific tasks.
@@ -22,7 +22,7 @@ The DEC Programmed Data Processor -4 is a compact solid-state stored program dig
    ICT 1300 architecture have "main" overflow flag and some tests like IAS-TEST wich used just to make a test for parity error catch of the system.
 
 7. PDP-4 system have 18bit machine word. 
-   ICT 1300 system holds 48 bits (12 decimal digits) machine word.
+   ICT 1300 system holds 48 bits (12 decimal digits) plus 2 parity bits machine word.
 
 8. PDP-4 computer system have continuous type of memory layout.Its efective address is 12 bits.Extended version of PDP-4 with 15 bits addresses could work with up to 32K 18bit words, but usually it had 4K 18bit of words in capacity.
    ICT 1300 architecture have continuous address space, because its architecture is pretty simple compared to even PDP-4 system.
