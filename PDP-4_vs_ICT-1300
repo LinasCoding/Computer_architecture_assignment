@@ -22,12 +22,13 @@ The DEC Programmed Data Processor -4 is a compact solid-state stored program dig
    ICT 1300 architecture have "main" overflow flag and some tests like IAS-TEST wich used just to make a test for parity error catch of the system.
 
 7. PDP-4 system have 18bit machine word. 
-   ICT 1300 system holds 48 bits (12 decimal digits) plus 2 parity bits machine word.
+   ICT 1300 system holds 48 bits (12 decimal digits) plus 2 parity bits and combination makes them a machine word.
 
 8. PDP-4 computer system have continuous type of memory layout.Its efective address is 12 bits.Extended version of PDP-4 with 15 bits addresses could work with up to 32K 18bit words, but usually it had 4K 18bit of words in capacity.
    ICT 1300 architecture have continuous address space, because its architecture is pretty simple compared to even PDP-4 system.
 
 9. PDP-4 system do not have virtual memory, because CPU is working directly with memory, with real addresses.
+   ICT 1300 architecture does not have virtual memory as well as PDP-4 system.
 
 10. PDP-4 is 18 bit, accumulator-based, single-address instruction set.This system have 16 instructions. There are 3 classes of PDP-4 instructions: memory reference instructions like: AND Y, JUMP Y, XOR Y, LAC Y, DAC Y, DZM Y, etc. operate instructions like: RAL,RTL, etc. and basic IOT instructions like: IOF, ION, etc.
 
