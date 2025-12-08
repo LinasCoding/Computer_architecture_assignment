@@ -56,7 +56,7 @@ The cycl e time (the time required to read inFormation from memory and rewrite i
 16. PDP-4 do not use cache memory. ICT 1300 system as well as PDP-4 architecture do not use cache memory.
 
 17. PDP-4 was a general-purpose computer. It was used for mathematical operations because instead of supporting only 1's compliment, it also can support 2's compliment. Also it can have many kinds of different I/O equipment, as well as data storage because it can store information on magnetic tape.
-     
+     ICT 1300 computers one of its main attraction was that architecture performed British currency calculations (pounds, shillings and pence) in hardware. This architecture mostly was used for banking system like payrolls, slips.
 
 18. 
 
