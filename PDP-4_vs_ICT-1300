@@ -46,7 +46,7 @@ input-output devices to interrupt the program and initiate a subroutine which ma
     By the simplicity of ICT 1300 and because it was unbuffered, it does not have interruption support. Taking this into account, they were completely different.
 
 14. PDP-4 architecture have double-precision floating point package wich provides floating point arithmetic with a 36-bit mantissa and 18-bit exponent. The routines include plus, minus, divide, multiply, fix-to-float, and float-to-fix, with decimal input and output.
-    ICT 1300 system used decimal instead of binary as raw, as well as for instructions. So this architecture supports only 2 types: decimal digits and sterling digits.
+    ICT 1300 system used decimal instead of binary as raw, as well as for instructions, also principal functions have single character mnemonics, but the programmer still has to remember the indicator numeric codes. So this architecture supports only 2 types: decimal digits and sterling digits.
 
 15. With data interruption is suited for high speed information transfers; up to 125,000 18-bit words may be transferred per second. The clock/timer produces a signal which increments a Core Memory register at a rate of 60 cycles per second. The Clock produces a pulse every 1/60 second (16.6 milliseconds).
 Basic instructions require only 8 or 16 microseconds to be completely executed.
