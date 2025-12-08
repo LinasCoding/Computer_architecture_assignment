@@ -667,4 +667,56 @@ dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
 dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Added some aditional information to registers."
 [main 565890d] Added some aditional information to registers.
  1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Updating terminal.log file"
+[main ee0aabd] Updating terminal.log file
+ 1 file changed, 36 insertions(+)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (18/18), 3.26 KiB | 1.63 MiB/s, done.
+Total 18 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), completed with 2 local objects.
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   8209b12..ee0aabd  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add ,
+fatal: pathspec ',' did not match any files
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Correcting some information."
+[main db80576] Correcting some information.
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Correcting information on registers."
+[main ecb41f6] Correcting information on registers.
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 821 bytes | 821.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   ee0aabd..ecb41f6  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Minor changes of flags section."
+[main 198f9ba] Minor changes of flags section.
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Updating section about registers, memory."
+[main 227d971] Updating section about registers, memory.
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.09 KiB | 1.09 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/LinasCoding/Computer_architecture_assignment.git
+   ecb41f6..227d971  main -> main
 
