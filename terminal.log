@@ -631,4 +631,40 @@ dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
 dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Made minor changes on the file."
 [main fe05e0e] Made minor changes on the file.
  1 file changed, 2 insertions(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Updating topic about ICT 1300 architecture's speed."
+[main 04e7636] Updating topic about ICT 1300 architecture's speed.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Looks like ICT 1300 computer do not use cache memory."
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Looks like ICT 1300 computer do not use cache memory."
+[main 784b5b4] Looks like ICT 1300 computer do not use cache memory.
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Found information about ICT 1300 system and its mostly used areas."
+[main ee726bb] Found information about ICT 1300 system and its mostly used areas.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Changes to introduction.
+> ^C
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Changes to introduction."
+[main bda75a4] Changes to introduction.
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Added some aditional information to registers."
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Added some aditional information to registers."
+[main 565890d] Added some aditional information to registers.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
