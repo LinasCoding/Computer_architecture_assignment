@@ -2,7 +2,7 @@
 
                                   Introduction
 
-The DEC Programmed Data Processor -4 is a compact solid-state stored program digital computer. The PDP-4 is designed explicitly to bring to special purpose systems the flexibility, economy, and reliability of a production model general purpose machine. he basic function of the PDP-4 is to collect information from, and distribute information to a wide variety of peripheral devices accordin,g to a predetermined set of instructions.
+My assginment is to compare two computer architectures: PDP-4 and ICT 1300 systems. PDP-4 was made by Digital Equipment Corporation.It was a major American company in the computer industry from the 1960s to the 1990s. The company was co-founded by Ken Olsen and Harlan Anderson in 1957. ICT 1300 was made by International Computers and Tabulators. IT was a British computer manufacturer, formed in 1959 by a merger of the British Tabulating Machine Company (BTM) and Powers-Samas. In this topic we will discuss about computers internal achitecture like processors, registers, memory, etc. 
 
 
 2. Elementary base of PDP-4 computer's processor was descrete transistors and for memory were using magnetic core. It means that transistors were sold and you could replace them separetly. The PDP‑4 was pretty big computer, its weight was around 450 kilograms. Its measured roughly 68cm × 171cm × 162cm.From a single source of 115-volt, 60-cycle, single-phase power, PDP-4 produces circuit operating dc voltages of -15 volts (± 1) and +10 volts (± 1) which are varied for marginal checking. Total power consumption is 900 watts. 
@@ -53,7 +53,8 @@ Basic instructions require only 8 or 16 microseconds to be completely executed.
 The cycl e time (the time required to read inFormation from memory and rewrite information back into me'mory) is 8 microseconds. The access time (the time required to read information from memory) is 2 microseconds.  
     ICT 1300 was slightly faster because system did not have buffer. Core speed is 1 microsecond per cycle. Simple addition took 21 clock cycles, hardware multiplication averaged 170 clock cycles per digit. Paper Tape Reader at 1,000 characters per second. Paper Tape Punch at 300 characters per second. Memory average access time was 5.7 ms.     
 
-16. PDP-4 do not use cache memory. ICT 1300 system as well as PDP-4 architecture do not use cache memory.
+16. PDP-4 do not use cache memory. 
+    ICT 1300 system as well as PDP-4 architecture do not use cache memory.
 
 17. PDP-4 was a general-purpose computer. It was used for mathematical operations because instead of supporting only 1's compliment, it also can support 2's compliment. Also it can have many kinds of different I/O equipment, as well as data storage because it can store information on magnetic tape.
      ICT 1300 computers one of its main attraction was that architecture performed British currency calculations (pounds, shillings and pence) in hardware. This architecture mostly was used for banking system like payrolls, slips.
