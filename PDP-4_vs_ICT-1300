@@ -61,7 +61,8 @@ The cycl e time (the time required to read inFormation from memory and rewrite i
 17. PDP-4 was a general-purpose computer. It was used for mathematical operations because instead of supporting only 1's compliment, it also can support 2's compliment. Also it can have many kinds of different I/O equipment, as well as data storage because it can store information on magnetic tape.
      ICT 1300 computers one of its main attraction was that architecture performed British currency calculations (pounds, shillings and pence) in hardware. This architecture mostly was used for banking system like payrolls, slips.
 
-18. 
+18. PDP-4 architecture had an assembler that could interpret mnemonic to machine code and can work with Fortran II compiler, though with minimal source.
+    ICT 1300 architecture work directly with on drums, dont have any assemblers, compiler or software.
 
                                   Conclusion
 
