@@ -39,6 +39,7 @@ The DEC Programmed Data Processor -4 is a compact solid-state stored program dig
 operate in conjunction with a variety of peripheral devices, such as perforated-tape readers and punches, punched-card readers and punches,
 Teletype printer-keyboard, line printers, magnetic tape transports, and
 analog-to-digital converters.
+    ICT 1300 can handle some peripherals as PDP-4 architecture: The ICT 1301 can make use of many peripherals. These include the IBM 082 Card Sorter, and the IBM 129 Card Reader/Writer. A Teletype was available but rarely used. A Line Printer was also a common addition.
 
 13. PDP-4 has program interrupt control permits one of 11 lines (conditions) or
 input-output devices to interrupt the program and initiate a subroutine which may return to the original program when the cause for interruption has been processed. The machine state is preserved during a Program Interrupt. This type of interrupt is suited for information or event rates in the range of 0 to 2,000 cycles per second. Data interrupt control allows a device to automatically interrupt the program and deposit or extract data from the Core Memory at an address specified by the device. The Data Interrupt is suited for high speed information transfers; up to 125,000 18-bit words may be transferred per second. 
