@@ -15,7 +15,7 @@ My assginment is to compare two computer architectures: PDP-4 and ICT 1300 syste
 4. PDP-4 a single X winding and a single Y winding intersect at a single memory location containing an 18-bit core register. During each memory cycle information is read from or written into the single addressed core register. This addressed register is selected from among the 4096 (1024) registers in the core bank by selecting the single X winding and the single Y winding that intersect at the corresponding memory location.
    ICT 1300 system as well as PDP-4 is a single-address based machine. A register takes single address at a time. 
 
-5. PDP-4 computer's logic is divided into four parts: control unit, arithmetic unit, memory and input-output system. But only control unit and arithmetic unit have registers.The control unit includes three internal registers: IR(instruction register-4bit), PC(program counter-13bit) and MA(memory register-13bit), and two console switch registers, AS(address switches) and ACS(accumulator switches) and those registers are specialised.The arithmetic unit includes two 18-bit registers, AC(accumulator register) and MB(memory buffer register), and a 1-bit L register.
+5. PDP-4 computer's control unit includes 3 internal registers: IR(instruction register-4bit), PC(program counter-13bit) and MA(memory register-13bit), and two console switch registers, AS(address switches) and ACS(accumulator switches) and those registers are specialised.The arithmetic unit includes 2 18-bit registers, AC(accumulator register) and MB(memory buffer register), and a 1-bit L register.
    ICT 1300 architecture have 3 main registers. A register has a 48-bit Parallel connection to the IAS. It is used to write/read data to/from the IAS, Drum Store and Tape Store. Register B is used in most ALU calculations, and also would be the ALU link to the card punch, paper tape reader/punch and Teletype/line printer if the system had one. It was also used for bit-shifting. Register C is used for mutliplications and also for the card reader.Also there is 3 control registers of 48 bits width - control, branching, conditional.
 
 6. PDP-4 have 2 flags: Link register wich often is used as overflow flag in 1's and 2's compliment and I/O flag.
@@ -25,12 +25,14 @@ My assginment is to compare two computer architectures: PDP-4 and ICT 1300 syste
    ICT 1300 system holds 48 bits (12 decimal digits) plus 2 parity bits and combination makes them a machine word.
 
 8. PDP-4 computer system have continuous type of memory layout.Its efective address is 12 bits.Extended version of PDP-4 with 15 bits addresses could work with up to 32K 18bit words, but usually it had 4K 18bit of words in capacity.
-   ICT 1300 architecture have continuous address space, because its architecture is pretty simple compared to even PDP-4 system. Maximum amount of memory was 3000 words. Because word was 48 bits so its around 14K.
+   ICT 1300 architecture have continuous address space, because its architecture is pretty simple compared to even PDP-4 system. Maximum amount of memory was 3000 words. Because word is 48 bits so its around 14K.
 
 9. PDP-4 system do not have virtual memory, because CPU is working directly with memory, with real addresses.
    ICT 1300 architecture does not have virtual memory as well as PDP-4 system.
 
-10. PDP-4 is 18 bit, accumulator-based, single-address instruction set.This system have 16 instructions. There are 3 classes of PDP-4 instructions: memory reference instructions like: AND Y, JUMP Y, XOR Y, LAC Y, DAC Y, DZM Y, etc. operate instructions like: RAL,RTL, etc. and basic IOT instructions like: IOF, ION, etc.
+10. PDP-4 is 18 bit, accumulator-based, single-address instruction set. Computer's logic is divided into 4 classes: control unit, arithmetic unit, memory and input-output system. This system have 16 instructions. There are 3 classes of PDP-4 instructions: memory reference instructions like: AND Y, JUMP Y, XOR Y, LAC Y, DAC Y, DZM Y, etc. operate instructions like: RAL,RTL, etc. and basic IOT instructions like: IOF, ION, etc.
+    ICT 1300 system is 48 bit, register-based, single-address instruction set.
+    Architecure is devided into 4 classes: control unit, arithmetic unit, memory management unit and input-output unit. Control unit hold instructions like: ALL-OFF(load standart program cards),20(write drum stop),21(zero drum), etc. 
 
 11. PDP-4 architecture support direct and indirect addressing modes.
     ICT 1300 supports only direct addresing mode bacause even compared with PDP-4 architecture, its pretty simple. Well both systems support direct addresing mode, but ICT 1300 does not support indirect addressing mode.
@@ -39,7 +41,7 @@ My assginment is to compare two computer architectures: PDP-4 and ICT 1300 syste
 operate in conjunction with a variety of peripheral devices, such as perforated-tape readers and punches, punched-card readers and punches,
 Teletype printer-keyboard, line printers, magnetic tape transports, and
 analog-to-digital converters.
-    ICT 1300 can handle some peripherals as PDP-4 architecture: The ICT 1301 can make use of many peripherals. These include the IBM 082 Card Sorter, and the IBM 129 Card Reader/Writer. A Teletype was available but rarely used. A Line Printer was also a common addition.
+    ICT 1300 can handle some peripherals as PDP-4 architecture: The ICT 1300 can use many type of peripherals. These include the IBM 082 Card Sorter, and the IBM 129 Card Reader/Writer. A Teletype was available but rarely used. A Line Printer was also a common. Optional: magnetic tape.
 
 13. PDP-4 has program interrupt control permits one of 11 lines (conditions) or
 input-output devices to interrupt the program and initiate a subroutine which may return to the original program when the cause for interruption has been processed. The machine state is preserved during a Program Interrupt. This type of interrupt is suited for information or event rates in the range of 0 to 2,000 cycles per second. Data interrupt control allows a device to automatically interrupt the program and deposit or extract data from the Core Memory at an address specified by the device. The Data Interrupt is suited for high speed information transfers; up to 125,000 18-bit words may be transferred per second. 
