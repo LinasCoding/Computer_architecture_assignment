@@ -51,7 +51,7 @@ input-output devices to interrupt the program and initiate a subroutine which ma
 15. With data interruption is suited for high speed information transfers; up to 125,000 18-bit words may be transferred per second. The clock/timer produces a signal which increments a Core Memory register at a rate of 60 cycles per second. The Clock produces a pulse every 1/60 second (16.6 milliseconds).
 Basic instructions require only 8 or 16 microseconds to be completely executed.
 The cycl e time (the time required to read inFormation from memory and rewrite information back into me'mory) is 8 microseconds. The access time (the time required to read information from memory) is 2 microseconds.  
-    ICT 1300 was slightly faster because system did not have buffer. Core speed is 1 microsecond per cycle.   
+    ICT 1300 was slightly faster because system did not have buffer. Core speed is 1 microsecond per cycle. Simple addition took 21 clock cycles, hardware multiplication averaged 170 clock cycles per digit. Paper Tape Reader at 1,000 characters per second. Paper Tape Punch at 300 characters per second. Memory average access time was 5.7 ms.     
 
 16. PDP-4 did not use cache memory.
 
