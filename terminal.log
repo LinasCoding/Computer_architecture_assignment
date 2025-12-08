@@ -608,4 +608,27 @@ Total 24 (delta 8), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (8/8), completed with 1 local object.
 To https://github.com/LinasCoding/Computer_architecture_assignment.git
    d78e541..56e5baa  main -> main
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Regarding interruption topic, were made minor changes."
+[main 63efc3b] Regarding interruption topic, were made minor changes.
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Found some information about data types that belong to ICT 1300 architecture."
+[main 4c9e4d5] Found some information about data types that belong to ICT 1300 architecture.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "More updates on data types of system ICT 1300."
+[main 4d38b4b] More updates on data types of system ICT 1300.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Made minor changes on the file."
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git add .
+dummy@dummy-K55VM:~/Computer_architecture_assignment$ git commit -m "Made minor changes on the file."
+[main fe05e0e] Made minor changes on the file.
+ 1 file changed, 2 insertions(+), 1 deletion(-)
 
