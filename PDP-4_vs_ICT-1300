@@ -53,9 +53,10 @@ Basic instructions require only 8 or 16 microseconds to be completely executed.
 The cycl e time (the time required to read inFormation from memory and rewrite information back into me'mory) is 8 microseconds. The access time (the time required to read information from memory) is 2 microseconds.  
     ICT 1300 was slightly faster because system did not have buffer. Core speed is 1 microsecond per cycle. Simple addition took 21 clock cycles, hardware multiplication averaged 170 clock cycles per digit. Paper Tape Reader at 1,000 characters per second. Paper Tape Punch at 300 characters per second. Memory average access time was 5.7 ms.     
 
-16. PDP-4 did not use cache memory.
+16. PDP-4 do not use cache memory. ICT 1300 system as well as PDP-4 architecture do not use cache memory.
 
-17. PDP-4 was a general-purpose computer. It was used for mathematical operations because instead of supporting only 1's compliment, it also can support 2's compliment. Also it can have many kinds of different I/O equipment, as well as data storage because it can store information on magnetic tape. 
+17. PDP-4 was a general-purpose computer. It was used for mathematical operations because instead of supporting only 1's compliment, it also can support 2's compliment. Also it can have many kinds of different I/O equipment, as well as data storage because it can store information on magnetic tape.
+     
 
 18. 
 
