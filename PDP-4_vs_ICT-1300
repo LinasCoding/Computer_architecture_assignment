@@ -51,10 +51,11 @@ input-output devices to interrupt the program and initiate a subroutine which ma
 15. With data interruption is suited for high speed information transfers; up to 125,000 18-bit words may be transferred per second. The clock/timer produces a signal which increments a Core Memory register at a rate of 60 cycles per second. The Clock produces a pulse every 1/60 second (16.6 milliseconds).
 Basic instructions require only 8 or 16 microseconds to be completely executed.
 The cycl e time (the time required to read inFormation from memory and rewrite information back into me'mory) is 8 microseconds. The access time (the time required to read information from memory) is 2 microseconds.  
+    ICT 1300 was slightly faster because system did not have buffer. Core speed is 1 microsecond per cycle.   
 
 16. PDP-4 did not use cache memory.
 
-17. PDP-4 was a general-purpose computer. It was use for mathematical operations because instead of supportin only 1's compliment, it also can support 2's compliment. Also it can have many kinds of different I/O equipment, as well as data storage because it can store information on magnetic tape. 
+17. PDP-4 was a general-purpose computer. It was used for mathematical operations because instead of supporting only 1's compliment, it also can support 2's compliment. Also it can have many kinds of different I/O equipment, as well as data storage because it can store information on magnetic tape. 
 
 18. 
 
