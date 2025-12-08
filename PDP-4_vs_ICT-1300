@@ -21,7 +21,8 @@ The DEC Programmed Data Processor -4 is a compact solid-state stored program dig
 6. PDP-4 have 2 flags: Link register wich often is used as overflow flag in 1's and 2's compliment and I/O flag.
    ICT 1300 architecture have "main" overflow flag and some tests like IAS-TEST wich used just to make a test for parity error catch of the system.
 
-7. PDP-4 system have 18bit machine word.
+7. PDP-4 system have 18bit machine word. 
+   ICT 1300 system holds 12 decimal digits as machine word.
 
 8. PDP-4 computer system have continuous type of memory layout.Its efective address is 12 bits.Extended version of PDP-4 with 15 bits addresses could work with up to 32K 18bit words, but usually it had 4k 18bit of words in capacity.
 
